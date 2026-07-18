@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,rgb(140, 0, 255),black);
+    background-attachment: fixed;
+}
+.LOGO{
+    width:250px ;
+    height: 100px;
+
+}
+.art-img{
+    width:600px;
+    aspect-ratio:  3/2;
+    object-fit: cover;
+    border: 6px solid #fff;
+    box-shadow: 0 4px 15px 
+    rgba(0,0,0,0,2);
+    padding: 10px;
+    border-radius: 10px;
+}
+.img-cont{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: auto-fit,minmax(300px,1fr);
+    gap:30px;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    font-family:serif ;
+}
